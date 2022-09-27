@@ -1,5 +1,8 @@
 .container {
   padding: 0 2rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
 .main {
@@ -10,6 +13,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 500px;
 }
 
 .footer {
@@ -42,7 +46,28 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 2em;
+}
+
+.phoneInput {
+  margin-top: 2rem;
+  padding: 1rem;
+  border: 2px solid #128c7e;
+  border-radius: 9px;
+  background-color: transparent;
+  font-size: 1.5;
+}
+
+.phoneBtn {
+  margin-top: 2rem;
+  padding: 1rem;
+  border: 1px solid #128c7e;
+  border-radius: 100px;
+  background-color: #128c7e;
+  font-size: 1.5;
+  text-align: center;
+  font-weight: 800;
+  width: 100%;
 }
 
 .title,
